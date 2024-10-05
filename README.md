@@ -19,6 +19,7 @@ Decryption works similarly to encryption but in reverse. The same shift value is
 # Program Flow:
 The program can either encrypt or decrypt a file using the above algorithm. The user can input a file name containing the text to be encrypted/decrypted, the output file name to save the result, and a key.
 Program Structure:
+
 **1. encrypt_shift():**
 This function encrypts a given string based on the key and index position of each character.
 
