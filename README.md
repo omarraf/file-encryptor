@@ -21,14 +21,16 @@ The program can either encrypt or decrypt a file using the above algorithm. The 
 Program Structure:
 **1. encrypt_shift():**
 This function encrypts a given string based on the key and index position of each character.
-The function iterates through each character in the string, shifts it using the formula, and returns the encrypted string.
+
 **2. decrypt_shift():**
 This function reverses the encryption by shifting the characters back to their original values.
-The formula used for decryption is the same, except the shift is subtracted rather than added.
+
 **3. encrypt_file():**
 This function reads the content of a file, encrypts each line using encrypt_shift(), and writes the encrypted lines to a new file.
+
 **4. decrypt_file():**
 This function performs the opposite of encrypt_file(), decrypting each line of the input file and saving the decrypted content to an output file.
+
 **5. User Interaction:**
 The program prompts the user to choose between encryption or decryption and to provide the necessary input and output file names along with the key.
 
